@@ -43,8 +43,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
   s.ios.source_files = 'Classes/', 'Classes/{iOS,Swizzle,MAZeroingWeakRef}/*.{h,m}'
   s.osx.source_files = 'Classes/', 'Classes/{MacOSX,Swizzle,MAZeroingWeakRef}/*.{h,m}'
-  s.ios.frameworks = 'Foundation', 'Cocoa', 'UIKit', 'CoreGraphics', 'Security'
-  s.osx.frameworks = 'Foundation', 'Cocoa', 'UIKit', 'CoreGraphics', 'Security', 'AppKit'
+  s.ios.frameworks = 'Foundation'
+  s.osx.frameworks = 'Foundation'
 
   # Specify a list of libraries that the application needs to link
   # against for this Pod to work.
